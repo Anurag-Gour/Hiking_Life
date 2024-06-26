@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+.classes-title {
+  font-size: 36px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #1f262f;
+  font-weight: 700;
+  font-family: "Bitter";
+  margin: 20px 0px;
+}
+
+.classes-title-span {
+  display: block;
+}
+
+.classes-subtitle {
+  font-size: 28px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #1f262f;
+  font-weight: 700;
+  font-family: "Bitter";
+}
+
+.classes-desc {
+  font-size: 25px;
+  letter-spacing: 2px;
+  line-height: 46px;
+  color: #1f262f;
+  font-weight: 400;
+  font-family: "Bitter";
+}
+
+.classes-blue-bar {
+  max-width: 531px;
+  height: 2px;
+  background-color: #000000;
+  border: 0.2px solid #0cc4df;
+}
+
+.classes-details {
+  font-size: 25px;
+  letter-spacing: 2px;
+  line-height: 42px;
+  color: #1f262f;
+  font-weight: 400;
+  font-family: "Bitter";
+  margin-top: 3%;
+}
+
+.classes-details-span {
+  display: block;
+}
+
+.classes-schedule {
+  font-size: 25px;
+  letter-spacing: 2px;
+  line-height: 33px;
+  color: #1f262f;
+  font-weight: 700;
+  font-family: "Bitter";
+}
+
+.classes-img {
+  width: 370px;
+  height: 370px;
+  border-radius: 50%;
+}
+
+.classes-colored-text {
+  font-size: 33px;
+  text-transform: uppercase;
+  color: #fd5f00;
+  font-weight: 400;
+  font-family: "Permanent Marker";
+  text-align: left;
+}
+
+@media (max-width: 992px) {
+  .classes-colored-text {
+    text-align: center;
+  }
+}

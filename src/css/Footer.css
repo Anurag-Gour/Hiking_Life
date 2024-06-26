@@ -1,0 +1,40 @@
+.footer-left-l1 {
+  font-size: 25px;
+  line-height: 33px;
+  text-transform: uppercase;
+  color: #1f262f;
+  font-weight: 700;
+  font-family: "Bitter";
+}
+.footer-left-l2 {
+  font-size: 21px;
+  line-height: 29px;
+  color: #1f262f;
+  font-weight: 400;
+  font-family: "Bitter";
+}
+
+.footer-right-head {
+  font-size: 21px;
+  line-height: 33px;
+  text-transform: uppercase;
+  color: #1f262f;
+  font-weight: 700;
+  font-family: "Bitter";
+}
+
+.footer-link a {
+  font-size: 17px;
+  line-height: 33px;
+  color: #1f262f;
+  font-weight: 400;
+  font-family: "Bitter";
+  text-decoration: none;
+}
+.footer-link a:hover {
+  font-weight: 700;
+}
+
+.footer-main-div {
+  border-bottom: 15px solid #0cc4df;
+}

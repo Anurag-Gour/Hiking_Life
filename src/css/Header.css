@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap");
+
+.nav-main-div {
+  position: relative;
+  background: url("../assets/homeBg.png") no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 20px 0;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 7%;
+  transform: translateY(-50%);
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.line1 {
+  font-size: 41px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Bitter";
+  text-transform: capitalize;
+}
+.line2 {
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: normal;
+  font-family: "Bitter";
+  text-transform: uppercase;
+}
+.line3 {
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Bitter";
+}
+
+.navbar-custom {
+  background-color: transparent;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: flex-end;
+}
+
+.nav-link {
+  margin-right: 33px;
+  font-size: 21px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  padding-bottom: 0;
+  height: 61px;
+  display: flex;
+  align-items: flex-end;
+}
+.nav-link:active {
+  margin-right: 33px;
+  font-size: 21px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  padding-bottom: 0;
+  height: 61px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.nav-link:hover {
+  color: #c5c1c1;
+}
+
+.navbar-brand img {
+  vertical-align: bottom;
+  margin-right: 33px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%23ffffff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.overlay-text-span {
+  display: block;
+}
+
+.mobile-img {
+  display: none;
+}
+/* Responsive styles */
+
+@media (max-width: 1000px) {
+  .overlay-text {
+    padding: 5%;
+    position: static;
+    transform: none;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+
+  .nav-main-div {
+    background: none;
+    background-color: #1f262f;
+    min-height: fit-content;
+  }
+
+  .overlay-text-span {
+    display: inline;
+  }
+
+  .mobile-img {
+    display: block;
+  }
+
+  .mobile-img img {
+    width: 100%;
+  }
+}

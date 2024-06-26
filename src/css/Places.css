@@ -1,0 +1,77 @@
+/* Places Card CSS */
+
+.place-card-img-custom {
+  width: 285px;
+  height: 285px;
+  object-fit: cover;
+  margin: 0 auto;
+  clip-path: circle();
+  max-width: 100%;
+}
+
+.place-card-title-custom {
+  font-size: 33px;
+  color: #1f262f;
+  font-weight: 700;
+  font-family: "Bitter";
+  text-align: center;
+}
+
+.place-card-text-custom {
+  font-size: 21px;
+  color: #1f262f;
+  font-weight: 400;
+  font-family: "Bitter";
+  text-align: center;
+}
+
+.place-card-custom {
+  padding: 30px;
+  border: none;
+}
+
+.place-card-footer-custom {
+  text-align: center;
+  background: none;
+  border-top: 2px solid #745a82;
+  font-size: 25px;
+  letter-spacing: 2px;
+  color: #1f262f;
+  font-weight: 700;
+  font-family: "Bitter";
+}
+
+.place-card-custom-span {
+  font-weight: 400;
+}
+
+/* Places CSS */
+
+.place-btn {
+  margin-top: 20px;
+  width: 150px;
+  border: 0.21px solid #0cc4df;
+  background: transparent;
+  font-size: 17px;
+  letter-spacing: 1px;
+  color: #1f262f;
+  font-weight: 400;
+  font-family: "Bitter";
+}
+.place-btn:hover {
+  border: 1px solid #000000;
+  font-weight: 700;
+}
+
+.place-title {
+  font-size: 42px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #1f262f;
+  font-weight: 700;
+  font-family: "Bitter";
+}
+
+.place-container {
+  padding: 50px;
+}

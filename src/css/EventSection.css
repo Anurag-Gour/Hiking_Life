@@ -1,0 +1,81 @@
+/* Event Card CSS */
+
+.card-img-custom {
+  width: 137px;
+  height: 137px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.card-title-custom {
+  font-size: 25px;
+  line-height: 46px;
+  text-transform: uppercase;
+  color: #1f262f;
+  font-weight: 700;
+  font-family: "Bitter", serif;
+  text-align: center;
+}
+
+.card-text-custom {
+  font-size: 25px;
+  line-height: 38px;
+  color: #1f262f;
+  font-weight: 400;
+  font-family: "Bitter";
+  text-align: center;
+}
+
+.card-custom {
+  padding: 30px;
+  border: none;
+}
+
+/* Event Section CSS */
+
+.event-section-title {
+  font-size: 33px;
+  line-height: 46px;
+  text-transform: uppercase;
+  color: #1f262f;
+  font-weight: 400;
+  font-family: "Bitter";
+}
+
+.event-section-title-span {
+  font-weight: 700;
+  display: block;
+}
+
+.blue-bar {
+  width: 95px;
+  height: 9px;
+  background-color: #2fc8e1;
+}
+
+.event-title {
+  position: relative;
+  padding-top: 3%;
+  padding-left: 5%;
+}
+
+.event-start-bullet {
+  position: absolute;
+  left: 1%;
+}
+
+.event-section-container {
+  padding-bottom: 10%;
+}
+
+.event-end-bullet {
+  position: absolute;
+  right: 2%;
+}
+
+@media (max-width: 1000px) {
+  .event-title {
+    position: relative;
+    padding-left: 10%;
+  }
+}

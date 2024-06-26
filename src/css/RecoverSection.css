@@ -1,0 +1,63 @@
+/* Recover Section CSS */
+
+.recover-section-title {
+  font-size: 38px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #1f262f;
+  font-weight: 700;
+  font-family: "Bitter";
+}
+
+.recover-section-title-span {
+  font-weight: 700;
+  display: block;
+}
+
+.blue-bar {
+  width: 95px;
+  height: 9px;
+  background-color: #2fc8e1;
+}
+
+.recover-title {
+  position: relative;
+  padding-top: 3%;
+  padding-left: 5%;
+}
+
+.recover-start-bullet {
+  position: absolute;
+  left: 1%;
+}
+
+.recover-section-container {
+  padding-bottom: 10%;
+}
+
+.recover-end-bullet {
+  position: absolute;
+  right: 2%;
+}
+
+@media (max-width: 1000px) {
+  .recover-title {
+    position: relative;
+    padding-left: 10%;
+  }
+}
+@media (max-width: 575px) {
+  .recover-end-bullet {
+    display: none;
+  }
+}
+
+.custom-list .list-group-item {
+  border: none;
+  font-size: 21px;
+  letter-spacing: 2px;
+  color: #1f262f;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Bitter";
+}

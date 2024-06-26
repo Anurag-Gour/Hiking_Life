@@ -1,0 +1,97 @@
+/* Middle Section CSS */
+
+.middle-main-div {
+  position: relative; /* Ensure the div is relative for absolute positioning */
+  background: url("../assets/midImg.png") no-repeat center center;
+  background-size: cover;
+  min-height: 90vh; /* Minimum height of the background image to cover viewport height */
+  margin: 10px 0; /* Adjust padding as needed */
+}
+
+.middle-overlay-text {
+  position: absolute;
+  top: 50%; /* Adjust positioning relative to parent */
+  left: 7%; /* Adjust positioning relative to parent */
+  transform: translateY(-50%); /* Center vertically based on parent */
+  color: #ffffff; /* Text color */
+  font-size: 2rem; /* Adjust font size */
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: Add text shadow for better contrast */
+}
+
+.middle-line1 {
+  overflow: wrap;
+  font-size: 46px;
+  text-transform: uppercase;
+  color: #fd5f00;
+  font-weight: 400;
+  font-family: "Permanent Marker";
+}
+.middle-line2 {
+  font-size: 33px;
+  letter-spacing: 2px;
+  line-height: 58px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Bitter";
+}
+.middle-line3 {
+  font-size: 25px;
+  letter-spacing: 2px;
+  line-height: 46px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Bitter";
+}
+
+.middle-overlay-text-span {
+  display: block;
+}
+
+.mobile-img {
+  display: none;
+}
+/* Responsive styles */
+
+@media (max-width: 1000px) {
+  .middle-overlay-text {
+    position: relative;
+    transform: none;
+    text-align: center;
+    margin-top: 10px;
+    max-width: 90vw;
+  }
+
+  .middle-main-div {
+    background: none;
+    background-color: #1f262f;
+    margin-top: 30px;
+    min-height: fit-content;
+  }
+
+  .middle-overlay-text-span {
+    display: inline;
+  }
+
+  .mobile-img {
+    display: block;
+  }
+
+  .mobile-img img {
+    width: 100vw;
+  }
+
+  .middle-line1 {
+    overflow: wrap;
+    max-width: 90vw;
+  }
+  .middle-line2 {
+    overflow: wrap;
+    max-width: 90vw;
+  }
+  .middle-line3 {
+    overflow: wrap;
+    max-width: 90vw;
+  }
+}
